@@ -1,0 +1,685 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A5AD6E92BDF31AA0049E666 /* GivianApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5AD6E82BDF31AA0049E666 /* GivianApp.swift */; };
+		5A5AD6EB2BDF31AA0049E666 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5AD6EA2BDF31AA0049E666 /* ContentView.swift */; };
+		5A5AD6ED2BDF31AC0049E666 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A5AD6EC2BDF31AC0049E666 /* Assets.xcassets */; };
+		5A5AD6F02BDF31AC0049E666 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A5AD6EF2BDF31AC0049E666 /* Preview Assets.xcassets */; };
+		5A5AD7132BDF31FE0049E666 /* LocalUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5AD7122BDF31FE0049E666 /* LocalUser.swift */; };
+		5A5AD7182BDF323D0049E666 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5AD7172BDF323C0049E666 /* LoginView.swift */; };
+		5A5AD71A2BDF32570049E666 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5AD7192BDF32570049E666 /* SignUpView.swift */; };
+		5A5AD71E2BDF36090049E666 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 5A5AD71D2BDF36090049E666 /* Podfile */; };
+		5A9EC1B62BDF46F30044FA68 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5A9EC1B52BDF46F30044FA68 /* GoogleService-Info.plist */; };
+		5A9EC1B82BDF490B0044FA68 /* HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9EC1B72BDF490B0044FA68 /* HomePageView.swift */; };
+		5A9EC1BA2BDF49350044FA68 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9EC1B92BDF49350044FA68 /* SettingsView.swift */; };
+		5A9EC1BD2BE4945B0044FA68 /* NewMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9EC1BC2BE4945B0044FA68 /* NewMessageView.swift */; };
+		87E96CBA660DE02D313FD2EA /* Pods_Givian.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91659EB0D886E085299059AD /* Pods_Givian.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5A5AD6F62BDF31AC0049E666 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A5AD6DD2BDF31AA0049E666 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A5AD6E42BDF31AA0049E666;
+			remoteInfo = Givian;
+		};
+		5A5AD7002BDF31AC0049E666 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A5AD6DD2BDF31AA0049E666 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A5AD6E42BDF31AA0049E666;
+			remoteInfo = Givian;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5A5AD6E52BDF31AA0049E666 /* Givian.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Givian.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A5AD6E82BDF31AA0049E666 /* GivianApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GivianApp.swift; sourceTree = "<group>"; };
+		5A5AD6EA2BDF31AA0049E666 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5A5AD6EC2BDF31AC0049E666 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A5AD6EF2BDF31AC0049E666 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5A5AD6F52BDF31AC0049E666 /* GivianTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GivianTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A5AD6FF2BDF31AC0049E666 /* GivianUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GivianUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A5AD7122BDF31FE0049E666 /* LocalUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalUser.swift; sourceTree = "<group>"; };
+		5A5AD7172BDF323C0049E666 /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		5A5AD7192BDF32570049E666 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		5A5AD71D2BDF36090049E666 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		5A9EC1B52BDF46F30044FA68 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5A9EC1B72BDF490B0044FA68 /* HomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageView.swift; sourceTree = "<group>"; };
+		5A9EC1B92BDF49350044FA68 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		5A9EC1BC2BE4945B0044FA68 /* NewMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMessageView.swift; sourceTree = "<group>"; };
+		76F22CA6156413A0D17E3EC2 /* Pods-Givian.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Givian.release.xcconfig"; path = "Target Support Files/Pods-Givian/Pods-Givian.release.xcconfig"; sourceTree = "<group>"; };
+		91659EB0D886E085299059AD /* Pods_Givian.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Givian.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0C827AC7E9B9E9F30775140 /* Pods-Givian.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Givian.debug.xcconfig"; path = "Target Support Files/Pods-Givian/Pods-Givian.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A5AD6E22BDF31AA0049E666 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87E96CBA660DE02D313FD2EA /* Pods_Givian.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A5AD6F22BDF31AC0049E666 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A5AD6FC2BDF31AC0049E666 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A5AD6DC2BDF31AA0049E666 = {
+			isa = PBXGroup;
+			children = (
+				5A9EC1B52BDF46F30044FA68 /* GoogleService-Info.plist */,
+				5A5AD71D2BDF36090049E666 /* Podfile */,
+				5A5AD6E72BDF31AA0049E666 /* Givian */,
+				5A5AD6E62BDF31AA0049E666 /* Products */,
+				7BACD2D3D699ABEB3F11DB6D /* Pods */,
+				6C9865B1750CB88D802D6B7A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5A5AD6E62BDF31AA0049E666 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A5AD6E52BDF31AA0049E666 /* Givian.app */,
+				5A5AD6F52BDF31AC0049E666 /* GivianTests.xctest */,
+				5A5AD6FF2BDF31AC0049E666 /* GivianUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A5AD6E72BDF31AA0049E666 /* Givian */ = {
+			isa = PBXGroup;
+			children = (
+				5A5AD6E82BDF31AA0049E666 /* GivianApp.swift */,
+				5A5AD7122BDF31FE0049E666 /* LocalUser.swift */,
+				5A5AD7142BDF32220049E666 /* Views */,
+				5A5AD6EC2BDF31AC0049E666 /* Assets.xcassets */,
+				5A5AD6EE2BDF31AC0049E666 /* Preview Content */,
+			);
+			path = Givian;
+			sourceTree = "<group>";
+		};
+		5A5AD6EE2BDF31AC0049E666 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5A5AD6EF2BDF31AC0049E666 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5A5AD7142BDF32220049E666 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5A9EC1BB2BE494370044FA68 /* SetupViews */,
+				5A9EC1B72BDF490B0044FA68 /* HomePageView.swift */,
+				5A9EC1B92BDF49350044FA68 /* SettingsView.swift */,
+				5A9EC1BC2BE4945B0044FA68 /* NewMessageView.swift */,
+				5A5AD6EA2BDF31AA0049E666 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5A9EC1BB2BE494370044FA68 /* SetupViews */ = {
+			isa = PBXGroup;
+			children = (
+				5A5AD7192BDF32570049E666 /* SignUpView.swift */,
+				5A5AD7172BDF323C0049E666 /* LoginView.swift */,
+			);
+			path = SetupViews;
+			sourceTree = "<group>";
+		};
+		6C9865B1750CB88D802D6B7A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91659EB0D886E085299059AD /* Pods_Givian.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7BACD2D3D699ABEB3F11DB6D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F0C827AC7E9B9E9F30775140 /* Pods-Givian.debug.xcconfig */,
+				76F22CA6156413A0D17E3EC2 /* Pods-Givian.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A5AD6E42BDF31AA0049E666 /* Givian */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A5AD7092BDF31AC0049E666 /* Build configuration list for PBXNativeTarget "Givian" */;
+			buildPhases = (
+				CE4A7F3F45A12541F2953D7B /* [CP] Check Pods Manifest.lock */,
+				5A5AD6E12BDF31AA0049E666 /* Sources */,
+				5A5AD6E22BDF31AA0049E666 /* Frameworks */,
+				5A5AD6E32BDF31AA0049E666 /* Resources */,
+				11B235E8ADA85BDFB23BF93D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Givian;
+			productName = Givian;
+			productReference = 5A5AD6E52BDF31AA0049E666 /* Givian.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5A5AD6F42BDF31AC0049E666 /* GivianTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A5AD70C2BDF31AC0049E666 /* Build configuration list for PBXNativeTarget "GivianTests" */;
+			buildPhases = (
+				5A5AD6F12BDF31AC0049E666 /* Sources */,
+				5A5AD6F22BDF31AC0049E666 /* Frameworks */,
+				5A5AD6F32BDF31AC0049E666 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A5AD6F72BDF31AC0049E666 /* PBXTargetDependency */,
+			);
+			name = GivianTests;
+			productName = GivianTests;
+			productReference = 5A5AD6F52BDF31AC0049E666 /* GivianTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5A5AD6FE2BDF31AC0049E666 /* GivianUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A5AD70F2BDF31AC0049E666 /* Build configuration list for PBXNativeTarget "GivianUITests" */;
+			buildPhases = (
+				5A5AD6FB2BDF31AC0049E666 /* Sources */,
+				5A5AD6FC2BDF31AC0049E666 /* Frameworks */,
+				5A5AD6FD2BDF31AC0049E666 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A5AD7012BDF31AC0049E666 /* PBXTargetDependency */,
+			);
+			name = GivianUITests;
+			productName = GivianUITests;
+			productReference = 5A5AD6FF2BDF31AC0049E666 /* GivianUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A5AD6DD2BDF31AA0049E666 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					5A5AD6E42BDF31AA0049E666 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					5A5AD6F42BDF31AC0049E666 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 5A5AD6E42BDF31AA0049E666;
+					};
+					5A5AD6FE2BDF31AC0049E666 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 5A5AD6E42BDF31AA0049E666;
+					};
+				};
+			};
+			buildConfigurationList = 5A5AD6E02BDF31AA0049E666 /* Build configuration list for PBXProject "Givian" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A5AD6DC2BDF31AA0049E666;
+			productRefGroup = 5A5AD6E62BDF31AA0049E666 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A5AD6E42BDF31AA0049E666 /* Givian */,
+				5A5AD6F42BDF31AC0049E666 /* GivianTests */,
+				5A5AD6FE2BDF31AC0049E666 /* GivianUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A5AD6E32BDF31AA0049E666 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A5AD71E2BDF36090049E666 /* Podfile in Resources */,
+				5A9EC1B62BDF46F30044FA68 /* GoogleService-Info.plist in Resources */,
+				5A5AD6F02BDF31AC0049E666 /* Preview Assets.xcassets in Resources */,
+				5A5AD6ED2BDF31AC0049E666 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A5AD6F32BDF31AC0049E666 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A5AD6FD2BDF31AC0049E666 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		11B235E8ADA85BDFB23BF93D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Givian/Pods-Givian-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Givian/Pods-Givian-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Givian/Pods-Givian-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE4A7F3F45A12541F2953D7B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Givian-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A5AD6E12BDF31AA0049E666 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A9EC1BA2BDF49350044FA68 /* SettingsView.swift in Sources */,
+				5A9EC1BD2BE4945B0044FA68 /* NewMessageView.swift in Sources */,
+				5A5AD6EB2BDF31AA0049E666 /* ContentView.swift in Sources */,
+				5A5AD71A2BDF32570049E666 /* SignUpView.swift in Sources */,
+				5A5AD7182BDF323D0049E666 /* LoginView.swift in Sources */,
+				5A5AD6E92BDF31AA0049E666 /* GivianApp.swift in Sources */,
+				5A9EC1B82BDF490B0044FA68 /* HomePageView.swift in Sources */,
+				5A5AD7132BDF31FE0049E666 /* LocalUser.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A5AD6F12BDF31AC0049E666 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A5AD6FB2BDF31AC0049E666 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A5AD6F72BDF31AC0049E666 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A5AD6E42BDF31AA0049E666 /* Givian */;
+			targetProxy = 5A5AD6F62BDF31AC0049E666 /* PBXContainerItemProxy */;
+		};
+		5A5AD7012BDF31AC0049E666 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A5AD6E42BDF31AA0049E666 /* Givian */;
+			targetProxy = 5A5AD7002BDF31AC0049E666 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5A5AD7072BDF31AC0049E666 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5A5AD7082BDF31AC0049E666 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A5AD70A2BDF31AC0049E666 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0C827AC7E9B9E9F30775140 /* Pods-Givian.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Givian/Preview Content\"";
+				DEVELOPMENT_TEAM = LBM2PA68YJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.maxuntrecht.Givian;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5A5AD70B2BDF31AC0049E666 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76F22CA6156413A0D17E3EC2 /* Pods-Givian.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Givian/Preview Content\"";
+				DEVELOPMENT_TEAM = LBM2PA68YJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.maxuntrecht.Givian;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5A5AD70D2BDF31AC0049E666 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LBM2PA68YJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.maxuntrecht.GivianTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Givian.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Givian";
+			};
+			name = Debug;
+		};
+		5A5AD70E2BDF31AC0049E666 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LBM2PA68YJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.maxuntrecht.GivianTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Givian.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Givian";
+			};
+			name = Release;
+		};
+		5A5AD7102BDF31AC0049E666 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LBM2PA68YJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.maxuntrecht.GivianUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Givian;
+			};
+			name = Debug;
+		};
+		5A5AD7112BDF31AC0049E666 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LBM2PA68YJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.maxuntrecht.GivianUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Givian;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A5AD6E02BDF31AA0049E666 /* Build configuration list for PBXProject "Givian" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A5AD7072BDF31AC0049E666 /* Debug */,
+				5A5AD7082BDF31AC0049E666 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A5AD7092BDF31AC0049E666 /* Build configuration list for PBXNativeTarget "Givian" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A5AD70A2BDF31AC0049E666 /* Debug */,
+				5A5AD70B2BDF31AC0049E666 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A5AD70C2BDF31AC0049E666 /* Build configuration list for PBXNativeTarget "GivianTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A5AD70D2BDF31AC0049E666 /* Debug */,
+				5A5AD70E2BDF31AC0049E666 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A5AD70F2BDF31AC0049E666 /* Build configuration list for PBXNativeTarget "GivianUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A5AD7102BDF31AC0049E666 /* Debug */,
+				5A5AD7112BDF31AC0049E666 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5A5AD6DD2BDF31AA0049E666 /* Project object */;
+}
